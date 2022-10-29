@@ -1,4 +1,4 @@
-import static org.junit.Assert.*;
+ import static org.junit.Assert.*;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -107,7 +107,7 @@ public class WriteLoopsTest
     public void TestCheckGameScore()
     {
         WriteLoops writeLoo1 = new WriteLoops();
-        assertEquals(true, writeLoo1.checkGameScore());
+        assertEquals(3, writeLoo1.checkGameScore());
     }
 
     @Test
